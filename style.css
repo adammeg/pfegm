@@ -5,10 +5,37 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 5px;
   font-family: serif;
 }
-  
-@media screen and (max-width: 670px) {
-  .w3-bar-item{
-    display: flex;
-    justify-content: center;
-  }
+#menu{
+text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .w3-top a {
+    float: none;
+    width: 100%;
+  }
+  body{
+    justify-content: center;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    border:auto ;
+  }
+  body{
+    background-image:url("./res/The-Kitchen-Restaurant-1.jpg") ;
+  }
+  h1, h2, h3, h4, h5, h6, p{
+    color: white;
+  }
+.img1{
+  width: 0mm;
+  height: 0mm;
+}
+.w3-text{
+  color: white;
+}
+span{
+  color: rgb(248, 182, 100);
+}
+}
+
